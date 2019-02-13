@@ -9,10 +9,12 @@ import os
 import sys
 
 # 第一个输入参数是包含视频片段的路径
-input_path = sys.argv[1]
+#input_path = sys.argv[1]
+input_path = "D:\\fcofficework\\Dome\\Python\\OpenCV\\opencv\\com\\fcant\\opencv\\basis\\video\\input_video"
 
 # 第二个输入参数是设定每隔多少帧截取一帧
-frame_interval = int(sys.argv[2])
+#frame_interval = int(sys.argv[2])
+frame_interval = int(50)
 
 # 列出文件夹下所有的视频文件
 filenames = os.listdir(input_path)
