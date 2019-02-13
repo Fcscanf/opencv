@@ -17,5 +17,6 @@ img = np.array(
 )
 # 用matplotlib存储
 plt.imsave('img_pyplot.jpg', img)
+
 # 用OpenCV存储
 cv2.imwrite('img_cv2.jpg', img)
